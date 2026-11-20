@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: cpp-kitob
+    runtime: static
+    buildCommand: npm install && npm run build
+    staticPublishPath: dist
